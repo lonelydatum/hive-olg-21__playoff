@@ -12,13 +12,13 @@ function start() {
 	swipe([".mask.puck", ".mask.ball"]);
 	tl.set(".frame1", { opacity: 1 });
 
-	tl.to(".logoHolder", 2.6, { scale: .139, x: -657, y: -55, ease: Power4.easeInOut }, "+=.5");
+	tl.to(".logoHolder", 2.6, { scale: .196, x: -234, y: -176, ease: Power4.easeInOut }, "+=.5");
 	tl.add("t1", "-=1.2");
 	tl.from(".t1a", .5, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1");
 	tl.from(".t1b", .5, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1+=.1");
 
 	tl.add("t2", "+=1.2");
-	tl.to(".logoHolder", .5, { scale: .086, x: -658, y: -98, ease: Power2.easeOut }, "t2");
+	tl.to(".logoHolder", .5, { scale: .118, x: -269, y: -189, ease: Power2.easeOut }, "t2");
 	tl.to(".t1", .3, { opacity: 0, ease: Sine.easeOut }, "t2");
 	tl.from(".t2", .3, { opacity: 0, ease: Sine.easeOut }, "t2+=.4");
 

@@ -181,9 +181,9 @@ sup {
 }
 
 .frame1 .holder-ball {
-  -webkit-transform: translate(742px, 156px) scale(0.73, 0.73);
-  -ms-transform: translate(742px, 156px) scale(0.73, 0.73);
-  transform: translate(742px, 156px) scale(0.73, 0.73);
+  -webkit-transform: translate(712px, 147px) scale(0.73, 0.73);
+  -ms-transform: translate(712px, 147px) scale(0.73, 0.73);
+  transform: translate(712px, 147px) scale(0.73, 0.73);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -192,12 +192,12 @@ sup {
 }
 
 .frame1 .logoHolder {
-  -webkit-transform-origin: 810px 232px;
-  -ms-transform-origin: 810px 232px;
-  transform-origin: 810px 232px;
-  -webkit-transform: translate(-668px, -110px) scale(1, 1);
-  -ms-transform: translate(-668px, -110px) scale(1, 1);
-  transform: translate(-668px, -110px) scale(1, 1);
+  -webkit-transform-origin: 790px 222px;
+  -ms-transform-origin: 790px 222px;
+  transform-origin: 790px 222px;
+  -webkit-transform: translate(-408px, -174px) scale(1, 1);
+  -ms-transform: translate(-408px, -174px) scale(1, 1);
+  transform: translate(-408px, -174px) scale(1, 1);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -228,37 +228,37 @@ sup {
 }
 
 .frame1 .t1a {
-  -webkit-transform: translate(-150px, -65px) scale(0.5, 0.5);
-  -ms-transform: translate(-150px, -65px) scale(0.5, 0.5);
-  transform: translate(-150px, -65px) scale(0.5, 0.5);
+  -webkit-transform: translate(-235px, -25px) scale(0.5, 0.5);
+  -ms-transform: translate(-235px, -25px) scale(0.5, 0.5);
+  transform: translate(-235px, -25px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  -webkit-transform-origin: 300px 130px;
-  -ms-transform-origin: 300px 130px;
-  transform-origin: 300px 130px;
+  -webkit-transform-origin: 470px 50px;
+  -ms-transform-origin: 470px 50px;
+  transform-origin: 470px 50px;
 }
 
 .frame1 .t1b {
-  -webkit-transform: translate(-150px, -110px) scale(0.5, 0.5);
-  -ms-transform: translate(-150px, -110px) scale(0.5, 0.5);
-  transform: translate(-150px, -110px) scale(0.5, 0.5);
+  -webkit-transform: translate(-210px, -65px) scale(0.5, 0.5);
+  -ms-transform: translate(-210px, -65px) scale(0.5, 0.5);
+  transform: translate(-210px, -65px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-  -webkit-transform-origin: 300px 220px;
-  -ms-transform-origin: 300px 220px;
-  transform-origin: 300px 220px;
+  -webkit-transform-origin: 420px 130px;
+  -ms-transform-origin: 420px 130px;
+  transform-origin: 420px 130px;
 }
 
 .frame1 .logos {
-  -webkit-transform: translate(0px, 2px) scale(0.5, 0.5);
-  -ms-transform: translate(0px, 2px) scale(0.5, 0.5);
-  transform: translate(0px, 2px) scale(0.5, 0.5);
+  -webkit-transform: translate(0px, 1px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 1px) scale(0.5, 0.5);
+  transform: translate(0px, 1px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -267,9 +267,9 @@ sup {
 }
 
 #legalBtn {
-  -webkit-transform: translate(7px, 198px);
-  -ms-transform: translate(7px, 198px);
-  transform: translate(7px, 198px);
+  -webkit-transform: translate(7px, 40px);
+  -ms-transform: translate(7px, 40px);
+  transform: translate(7px, 40px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -285,8 +285,8 @@ sup {
 #banner {
   font-size: 20px;
   color: #333;
-  width: 300px;
-  height: 250px;
+  width: 728px;
+  height: 90px;
 }
 
 /*# sourceMappingURL=main.css.map */

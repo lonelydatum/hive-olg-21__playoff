@@ -100,3 +100,28 @@ sup{
 	image-rendering: -webkit-optimize-contrast;
 	
 }
+
+
+
+
+#legalBtn:hover ~ #legalContent {
+	opacity: 1;
+	
+}
+
+#legalContent{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.9);
+	@include pos(0, 0);
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding: 10px;
+	font-size: 10px;
+	z-index: 90;
+	opacity: 0;
+	font-weight: normal;
+	line-height: 14px;
+	transition: opacity .3s;
+	pointer-events: none;
+}

@@ -13,14 +13,14 @@
 	}
 
 	.holder-ball{
-		@include pos-scale(742, 156, 0.73);
+		@include pos-scale(712, 147, 0.73);
 	}
 
 	.logoHolder{
-		transform-origin: 810px 232px;
-		@include pos-scale(-668, -110, 1);
-		// @include pos-scale(-657, -55, 0.139);
-		// @include pos-scale(-658, -98, 0.086);
+		transform-origin: 790px 222px;
+		@include pos-scale(-408, -174, 1);
+		// @include pos-scale(-234, -176, 0.196);
+		// @include pos-scale(-269, -189, 0.118);
 	}
 
 	.mask{
@@ -39,23 +39,26 @@
 	}
 
 	.t1a{		
-		@include pos-scale(-150, -65, 0.5);
-		transform-origin: 300px 130px;
+		// background-color: red;
+		@include pos-scale(-235, -25, 0.5);
+		transform-origin: 470px 50px;
 	}
 
 	.t1b{
-		@include pos-scale(-150, -110, 0.5);
-		transform-origin: 300px 220px;
+		@include pos-scale(-210, -65, 0.5);
+		transform-origin: 420px 130px;
 	}
 
 	.logos{
-		@include pos-scale(0, 2, .5);
+		@include pos-scale(0, 1, .5);
 	}
 
 }
 
+
+
 #legalBtn{	
-	@include pos(7, 198);
+	@include pos(7, 40);
 	opacity: 1;
 	width: 36px;
 	height: 25px;
@@ -63,12 +66,10 @@
 	opacity: 0;
 }
 
-
-
 #banner{
 	font-size: 20px;
 	color: #333;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 }
 
