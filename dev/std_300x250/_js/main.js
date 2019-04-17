@@ -43,8 +43,8 @@ function start(){
 
 
 	
-	tl.to(".logoHolder", 3.5, {scale:.139, x:-657, y:-55, ease:Power1.easeInOut})
-	tl.add("t1", "-=1.2")
+	tl.to(".logoHolder", 2.5, {scale:.139, x:-657, y:-55, ease:Power1.easeInOut})
+	tl.add("t1", 2.2)
 	tl.from(".t1a", .3, {scale:2, opacity:0, ease:Power4.easeInOut}, "t1")
 	tl.from(".t1b", .3, {scale:2, opacity:0, ease:Power4.easeInOut}, "t1+=.8")
 	
@@ -53,7 +53,7 @@ function start(){
 	tl.to(".logoHolder", .5, {scale:.086, x:-658, y:-98, ease:Power4.easeInOut}, "t2")
 	tl.to(".t1", .3, {opacity:0, ease:Sine.easeOut}, "t2")
 	tl.from(".t2", .3, {opacity:0, ease:Sine.easeOut}, "t2+=.4")
-	tl.to([`.white-circle, .holder-ball`], .3, {opacity:0}, "t2+=.55")
+	tl.to([`.white-circle, .holder-ball`], .3, {opacity:0}, "t2+=.15")
 
 	tl.add("footer")
 	tl.from(".logos", .3, {opacity:0, ease:Sine.easeOut}, "footer")
