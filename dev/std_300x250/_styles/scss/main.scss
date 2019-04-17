@@ -2,18 +2,37 @@
 
 @import '../../../_common/styles/common.scss';
 
-
+.hide{
+	opacity: 0;
+}
 
 .frame1 {
 	// opacity: 1;
-	.logo_big{
-		
-		
-		
+
+
+	.mask.ball{
+		opacity: 0;
+		@include pos(2, 3);
+		#copyToBall{		
+			width:110px;
+			  height:110px;
+			  @include pos-scale(18, 17, 1.42);		  
+		}	
 	}
+	
+	.mask.puck{
+		@include pos(5, 1);
+		#copyToPuck{
+			width:130px;
+			  height:130px;
+			  @include pos-scale(5, 7, 1.17);		  
+		}
+	}
+	
 
 	.holder-ball{
-		@include pos-scale(742, 156, 0.73);
+		// @include pos-scale(742, 156, 0.73);
+		@include pos-scale(742, 156, 1);
 	}
 
 	.logoHolder{
@@ -23,20 +42,20 @@
 		// @include pos-scale(-658, -98, 0.086);
 	}
 
+	.white-circle{
+		width: 150px;
+	}
+
 	.mask{
-		width:200px;
-		height:202px;
+		width:140px;
+		height:140px;
 		// background-color: red;
 		overflow: hidden;
 		@include pos(0, 0);
 	}
 
-	.mask.ball{
-		width: 0px;
-	}
-	.mask.puck{
-		width: 200px;
-	}
+	
+	
 
 	.t1a{		
 		@include pos-scale(-150, -65, 0.5);
