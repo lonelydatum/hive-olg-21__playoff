@@ -36,7 +36,7 @@ var ss = {
 		to: "copyToBall",
 		total: 10,
 		width: 110,
-		repeat: 2
+		repeat: 3
 	},
 	puck: {
 		from: "copyFromPuck",
@@ -59,14 +59,14 @@ function start() {
 	tlSS.set(".mask.ball", { zIndex: 1, width: 0, opacity: 0 }, "showBall");
 	tlSS.to(".mask.ball", .3, { width: 140, opacity: 1 }, "showBall");
 
-	tl.to(".logoHolder", 2.6, { scale: .139, x: -657, y: -55, ease: Power4.easeInOut }, "+=1");
+	tl.to(".logoHolder", 3.5, { scale: .139, x: -657, y: -55, ease: Power4.easeInOut });
 	tl.add("t1", "-=1.2");
-	tl.from(".t1a", .5, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1");
-	tl.from(".t1b", .5, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1+=.1");
-	tl.to([".white-circle, .mask.ball"], .3, { opacity: 0 }, "t1");
+	tl.from(".t1a", .3, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1");
+	tl.from(".t1b", .3, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1+=.8");
+	tl.to([".white-circle, .mask.ball"], .3, { opacity: 0 }, "t1+=.5");
 
 	tl.add("t2", "+=1.2");
-	tl.to(".logoHolder", .5, { scale: .086, x: -658, y: -98, ease: Power2.easeOut }, "t2");
+	tl.to(".logoHolder", .5, { scale: .086, x: -658, y: -98, ease: Power4.easeInOut }, "t2");
 	tl.to(".t1", .3, { opacity: 0, ease: Sine.easeOut }, "t2");
 	tl.from(".t2", .3, { opacity: 0, ease: Sine.easeOut }, "t2+=.4");
 
