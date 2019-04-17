@@ -59,12 +59,26 @@ function start() {
 	tlSS.set(".mask.ball", { zIndex: 1, width: 0, opacity: 0 }, "showBall");
 	tlSS.to(".mask.ball", .3, { width: 140, opacity: 1 }, "showBall");
 
-	tlSS.add("showPuck", 3.2);
+	tlSS.add("showPuck", 3);
 	tlSS.to(".mask.ball", .15, { opacity: 0 }, "showPuck");
 	tlSS.set(".mask.puck", { zIndex: 1, width: 0, opacity: 0 }, "showPuck");
 	tlSS.to(".mask.puck", .3, { width: 140, opacity: 1 }, "showPuck");
 
-	tl.to(".logoHolder", 2.5, { scale: .196, x: -234, y: -176, ease: Power1.easeInOut }, "+=.8");
+	tlSS.add("showBall2", 4);
+	tlSS.to(".mask.puck", .15, { opacity: 0 }, "showBall2");
+	tlSS.set(".mask.ball", { zIndex: 1, width: 0, opacity: 0 }, "showBall2");
+	tlSS.to(".mask.ball", .3, { width: 140, opacity: 1 }, "showBall2");
+
+	tl.to(".logoHolder", 2.5, { scale: .16, x: -234, y: -176, ease: Power1.easeIn });
+
+	var tlRumble = new TimelineMax();
+	var shake = 20;
+	var time = .07;
+	tlRumble.to(".bg", time, { x: "+=" + shake, y: "+=" + shake / 2 }, 2.5);
+	tlRumble.to(".bg", time, { x: "-=" + shake, y: "-=" + shake / 2 });
+	tlRumble.to(".bg", time, { x: "+=" + shake, y: "+=" + shake / 2 });
+	tlRumble.to(".bg", time, { x: "-=" + shake, y: "-=" + shake / 2 });
+
 	tl.add("t1", 2.8);
 	tl.from(".t1a", .5, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1");
 	tl.from(".t1b", .5, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1+=.8");

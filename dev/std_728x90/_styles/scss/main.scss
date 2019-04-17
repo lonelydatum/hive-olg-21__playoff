@@ -85,5 +85,11 @@
 	color: #333;
 	width: 728px;
 	height: 90px;
+	
+}
+
+.bg{
+	@include pos-scale(-369, -45, 0.6);
+	transform-origin: 728px 90px;
 }
 

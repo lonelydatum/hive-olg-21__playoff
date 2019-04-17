@@ -86,7 +86,7 @@ canvas {
   height: 250px;
   overflow: hidden;
   position: relative;
-  background-color: white;
+  background-color: #01632F;
   -webkit-text-size-adjust: 100%;
   opacity: 1;
   cursor: pointer;
@@ -353,6 +353,20 @@ sup {
   color: #333;
   width: 728px;
   height: 90px;
+}
+
+.bg {
+  -webkit-transform: translate(-369px, -45px) scale(0.6, 0.6);
+  -ms-transform: translate(-369px, -45px) scale(0.6, 0.6);
+  transform: translate(-369px, -45px) scale(0.6, 0.6);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+  -webkit-transform-origin: 728px 90px;
+  -ms-transform-origin: 728px 90px;
+  transform-origin: 728px 90px;
 }
 
 /*# sourceMappingURL=main.css.map */
