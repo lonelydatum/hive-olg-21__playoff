@@ -72,12 +72,12 @@ function start() {
 	tl.to(".logoHolder", 2.5, { scale: .16, x: -234, y: -176, ease: Power1.easeIn });
 
 	var tlRumble = new TimelineMax();
-	var shake = 20;
-	var time = .07;
-	tlRumble.to(".bg", time, { x: "+=" + shake, y: "+=" + shake / 2 }, 2.5);
-	tlRumble.to(".bg", time, { x: "-=" + shake, y: "-=" + shake / 2 });
-	tlRumble.to(".bg", time, { x: "+=" + shake, y: "+=" + shake / 2 });
-	tlRumble.to(".bg", time, { x: "-=" + shake, y: "-=" + shake / 2 });
+	var shake = 4;
+	var time = .04;
+	tlRumble.to(".logoHolder", time, { x: "+=" + shake, y: "+=" + shake / 2 }, 2.5);
+	tlRumble.to(".logoHolder", time, { x: "-=" + shake, y: "-=" + shake / 2 });
+	tlRumble.to(".logoHolder", time, { x: "+=" + shake, y: "+=" + shake / 2 });
+	tlRumble.to(".logoHolder", time, { x: "-=" + shake, y: "-=" + shake / 2 });
 
 	tl.add("t1", 2.8);
 	tl.from(".t1a", .5, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1");

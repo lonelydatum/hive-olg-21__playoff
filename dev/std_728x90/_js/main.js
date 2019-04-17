@@ -50,12 +50,12 @@ function start(){
 	
 
 	const tlRumble = new TimelineMax()
-	const shake = 20
-	const time = .07
-	tlRumble.to(".bg", time, {x:`+=${shake}`, y:`+=${shake/2}`}, 2.5)
-	tlRumble.to(".bg", time, {x:`-=${shake}`, y:`-=${shake/2}`})
-	tlRumble.to(".bg", time, {x:`+=${shake}`, y:`+=${shake/2}`})
-	tlRumble.to(".bg", time, {x:`-=${shake}`, y:`-=${shake/2}`})
+	const shake = 4
+	const time = .04
+	tlRumble.to(".logoHolder", time, {x:`+=${shake}`, y:`+=${shake/2}`}, 2.5)
+	tlRumble.to(".logoHolder", time, {x:`-=${shake}`, y:`-=${shake/2}`})
+	tlRumble.to(".logoHolder", time, {x:`+=${shake}`, y:`+=${shake/2}`})
+	tlRumble.to(".logoHolder", time, {x:`-=${shake}`, y:`-=${shake/2}`})
 
 
 	tl.add("t1", 2.8)
