@@ -59,7 +59,7 @@ function start() {
 	tlSS.set(".mask.ball", { zIndex: 1, width: 0, opacity: 0 }, "showBall");
 	tlSS.to(".mask.ball", .3, { width: 140, opacity: 1 }, "showBall");
 
-	tlSS.add("showPuck", 3.5);
+	tlSS.add("showPuck", 3.2);
 	tlSS.to(".mask.ball", .15, { opacity: 0 }, "showPuck");
 	tlSS.set(".mask.puck", { zIndex: 1, width: 0, opacity: 0 }, "showPuck");
 	tlSS.to(".mask.puck", .3, { width: 140, opacity: 1 }, "showPuck");
