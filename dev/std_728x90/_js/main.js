@@ -45,7 +45,7 @@ function start(){
 	tl.from(".t1a", .5, {scale:2, opacity:0, ease:Power4.easeInOut}, "t1")
 	tl.from(".t1b", .5, {scale:2, opacity:0, ease:Power4.easeInOut}, "t1+=.8")
 	
-	tl.add("t2", "+=1.2")
+	tl.add("t2", "+=1.9")
 	tl.to(".logoHolder", .5, {scale:.118, x:-269, y:-189, ease:Power4.easeInOut}, "t2")
 	tl.to(".t1", .3, {opacity:0, ease:Sine.easeOut}, "t2")
 	tl.from(".t2", .3, {opacity:0, ease:Sine.easeOut}, "t2+=.4")
