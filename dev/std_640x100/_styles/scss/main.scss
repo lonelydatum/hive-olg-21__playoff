@@ -1,0 +1,104 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 1;
+	.mask.ball{
+		opacity: 0;
+		@include pos(2, 3);
+		#copyToBall{		
+			width:110px;
+			  height:110px;
+			  @include pos-scale(18, 17, 1.42);		  
+		}	
+	}
+	
+	.mask.puck{
+		@include pos(5, 1);
+		#copyToPuck{
+			width:130px;
+			  height:130px;
+			  @include pos-scale(5, 7, 1.17);		  
+		}
+	}
+
+	.white-circle{
+		@include pos-scale(-23, -23, 0.7);
+	}
+
+
+
+	.holder-ball{
+		@include pos-scale(712, 147, 1);
+	}
+
+	.logoHolder{
+		transform-origin: 790px 222px;
+		@include pos-scale(-468, -174, 1);
+		// @include pos-scale(-317, -173, 0.18);
+		// @include pos-scale(-339, -181, 0.1);
+	}
+
+	.mask{
+		width:200px;
+		height:202px;
+		// background-color: red;
+		overflow: hidden;
+		@include pos(0, 0);
+	}
+
+	
+
+	.t1a{		
+		// background-color: red;
+		@include pos-scale(-292, -16, 0.45);
+		transform-origin: 470px 50px;
+	}
+
+	.t1b{
+		@include pos-scale(-260, -61, 0.45);
+		transform-origin: 420px 130px;
+	}
+
+	.t2{
+		@include pos-scale(-245, -57, 0.5);
+		transform-origin: 420px 130px;
+	}
+
+	.cta{
+		@include pos-scale(15, 5, .5);
+	}
+
+	.logos{
+		@include pos-scale(36, 18, .41);
+	}
+
+}
+
+
+
+#legalBtn{	
+	@include pos(7, 60);
+	opacity: 1;
+	width: 36px;
+	height: 25px;
+	background-color: red;
+	opacity: 0;
+}
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 640px;
+	height: 100px;
+	
+}
+
+.bg{
+	@include pos-scale(-369, -45, 0.6);
+	transform-origin: 728px 90px;
+}
+
