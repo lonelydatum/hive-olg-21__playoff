@@ -84,7 +84,7 @@ function start() {
 	tl.from(".t1b", .3, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1+=.8");
 
 	tl.add("t2", "+=1.9");
-	tl.to(".logoHolder", .5, { scale: .086, x: -658, y: 57, ease: Power4.easeInOut }, "t2");
+	tl.to(".logoHolder", .5, { scale: .086, x: -661, y: 57, ease: Power4.easeInOut }, "t2");
 	tl.to(".t1", .3, { opacity: 0, ease: Sine.easeOut }, "t2");
 	tl.from(".t2", .3, { opacity: 0, ease: Sine.easeOut }, "t2+=.4");
 	tl.to([".white-circle, .holder-ball"], .3, { opacity: 0 }, "t2+=.15");
