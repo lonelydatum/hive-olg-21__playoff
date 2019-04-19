@@ -41,7 +41,7 @@
 		transform-origin: 810px 232px;
 		@include pos-scale(-668, 60, 1);
 		// @include pos-scale(-657, 95, 0.139);
-		// @include pos-scale(-658, 47, 0.086);
+		// @include pos-scale(-664, 95, 0.136);
 	}
 
 	.white-circle{
@@ -70,15 +70,15 @@
 	}
 
 	.t2{		
-		@include pos-scale(-17, 134, 0.55);		
+		@include pos-scale(-15, -17, 0.55);		
 	}
 
 	.cta{
-		@include pos-scale(0, -10, .5);
+		@include pos-scale(-60, -240, .70);
 	}
 
 	.logos{
-		@include pos-scale(0, 159, .5);
+		@include pos-scale(-97, 116, .8);
 	}
 
 }
