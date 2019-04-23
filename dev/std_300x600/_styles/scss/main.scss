@@ -60,17 +60,17 @@
 	
 
 	.t1a{		
-		@include pos-scale(-150, 79, 0.5);
+		@include pos-scale(-150, 69, 0.5);
 		transform-origin: 300px 130px;
 	}
 
 	.t1b{
-		@include pos-scale(-150, 34, 0.5);
+		@include pos-scale(-150, 24, 0.5);
 		transform-origin: 300px 220px;
 	}
 
 	.t2{		
-		@include pos-scale(-15, -17, 0.55);		
+		@include pos-scale(13, 31, 0.45);		
 	}
 
 	.cta{

@@ -69,7 +69,7 @@ function start() {
 	tlSS.set(".mask.ball", { zIndex: 1, width: 0, opacity: 0 }, "showBall2");
 	tlSS.to(".mask.ball", .3, { width: 140, opacity: 1 }, "showBall2");
 
-	tl.to(".logoHolder", 2.5, { scale: .136, x: -664, y: 95, ease: Power1.easeIn });
+	tl.to(".logoHolder", 2.5, { scale: .136, x: -664, y: 85, ease: Power1.easeIn });
 
 	var tlRumble = new TimelineMax();
 	var shake = 4;
@@ -84,7 +84,7 @@ function start() {
 	tl.from(".t1b", .3, { scale: 2, opacity: 0, ease: Power4.easeInOut }, "t1+=.8");
 
 	tl.add("t2", "+=1.9");
-	tl.to(".logoHolder", .5, { scale: .136, x: -664, y: 95, ease: Power4.easeInOut }, "t2");
+	tl.to(".logoHolder", .5, { scale: .136, x: -664, y: 85, ease: Power4.easeInOut }, "t2");
 	tl.to(".t1", .3, { opacity: 0, ease: Sine.easeOut }, "t2");
 	tl.from(".t2", .3, { opacity: 0, ease: Sine.easeOut }, "t2+=.4");
 	tl.to([".white-circle, .holder-ball"], .3, { opacity: 0 }, "t2+=.15");

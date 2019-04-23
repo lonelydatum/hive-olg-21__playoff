@@ -48,7 +48,7 @@ function start(){
 
 
 	
-	tl.to(".logoHolder", 2.5, {scale:.136, x:-664, y:95, ease:Power1.easeIn})
+	tl.to(".logoHolder", 2.5, {scale:.136, x:-664, y:85, ease:Power1.easeIn})
 
 	const tlRumble = new TimelineMax()
 	const shake = 4
@@ -66,7 +66,7 @@ function start(){
 	
 
 	tl.add("t2", "+=1.9")
-	tl.to(".logoHolder", .5, {scale:.136, x:-664, y:95, ease:Power4.easeInOut}, "t2")
+	tl.to(".logoHolder", .5, {scale:.136, x:-664, y:85, ease:Power4.easeInOut}, "t2")
 	tl.to(".t1", .3, {opacity:0, ease:Sine.easeOut}, "t2")
 	tl.from(".t2", .3, {opacity:0, ease:Sine.easeOut}, "t2+=.4")
 	tl.to([`.white-circle, .holder-ball`], .3, {opacity:0}, "t2+=.15")
